@@ -1,130 +1,70 @@
 # Voice Assistant
 
-## Project Overview
-
-The Voice Assistant is a Python-based application that listens to the user's voice commands and responds using text-to-speech.
-
-It can recognize basic spoken commands, provide the current date and time, respond to greetings, and perform web searches based on the user's request.
-
-## Objective
-
-The main objective of this project is to build a simple voice-controlled assistant using Python and understand the basics of speech recognition, text-to-speech, and browser automation.
-
-## Technologies Used
-
-* Python
-* SpeechRecognition
-* PyAudio
-* pyttsx3
-* datetime
-* webbrowser
+A Python-based voice assistant that listens to voice commands and responds using text-to-speech.
 
 ## Features
 
-* Capture voice input using a microphone
-* Convert speech into text
-* Respond to greeting commands
-* Tell the current time
-* Tell the current date
-* Perform Google searches using voice commands
-* Convert responses into speech
-* Handle unclear or unrecognized voice input
-* Exit the assistant using voice commands
+* Voice input using microphone
+* Greeting response
+* Current date and time
+* Google web search
+* Error handling
+* Text-to-speech responses
 
-## Project Structure
+## Technologies
 
-```text
-Voice-Assistant/
-│
-├── voice_assistant.py
-└── README.md
-```
+Python, SpeechRecognition, PyAudio, pyttsx3, datetime, webbrowser
 
-## Installation
 
-Install the required Python libraries using the following command:
 
-```bash
-pip install SpeechRecognition pyttsx3 PyAudio
-```
 
-## How to Run
 
-1. Clone or download the project.
-2. Open the project folder in the terminal.
-3. Make sure Python is installed.
-4. Install the required dependencies.
-5. Run the following command:
 
-```bash
-python voice_assistant.py
-```
 
-6. Allow microphone access when requested.
-7. Speak a command to interact with the assistant.
+# BMI Calculator
 
-## Sample Commands
+A Python program that calculates Body Mass Index (BMI) using the user's height and weight and displays the corresponding health category.
 
-| Command                        | Response                         |
-| ------------------------------ | -------------------------------- |
-| Hello                          | Gives a greeting                 |
-| What is the time?              | Tells the current time           |
-| What is today's date?          | Tells the current date           |
-| Search Python programming      | Opens a Google search            |
-| Search Artificial Intelligence | Searches for the requested topic |
-| Bye                            | Exits the assistant              |
+## Features
 
-## How It Works
+* Accepts height and weight
+* Calculates BMI
+* Displays BMI category
+* Input validation
 
-1. The application starts and initializes the speech recognition and text-to-speech engines.
-2. The microphone captures the user's voice.
-3. SpeechRecognition converts the voice input into text.
-4. The program checks the user's command.
-5. The appropriate action is performed.
-6. pyttsx3 converts the response into speech.
-7. The assistant continues listening until the user exits the application.
+## Technologies
 
-## Error Handling
+Python
 
-The application handles common errors during voice recognition.
 
-* If the speech is not understood, the assistant asks the user to repeat.
-* If no voice input is detected, the assistant asks the user to try again.
-* If the speech recognition service is unavailable, an appropriate error message is provided.
-* Unknown commands are handled gracefully.
 
-## Future Enhancements
+# Password Generator
 
-The project can be extended with advanced features such as:
+A Python-based application that generates random passwords based on the user's selected length and character types.
 
-* Natural Language Processing using NLTK or Transformers
-* Weather API integration
-* Email sending functionality
-* News API integration
-* Music playback
-* Smart home device control
-* Graphical User Interface using Tkinter
-* User preference and command history storage
+## Features
 
-## Learning Outcomes
+* Custom password length
+* Uppercase and lowercase letters
+* Numbers and symbols
+* Input validation
+* Generate multiple passwords
 
-Through this project, the following concepts are practiced:
+## Technologies
 
-* Python programming
-* Speech recognition
-* Text-to-speech conversion
-* Exception handling
-* Working with Python libraries
-* Date and time handling
-* Browser automation
-* Voice-based user interaction
+Python, random, string
 
-## Author
 
-Varshini N
 
-Python Full Stack Development Learner
 
-## License
 
-This project is created for educational and learning purposes.
+
+
+
+
+
+
+
+
+
+
